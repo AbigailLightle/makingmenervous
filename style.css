@@ -8,6 +8,41 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.side-nav {
+  width:175px;
+  height:100%;
+  background:#0d74f5;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.nav-links {
+  list-style: none;
+  position: relative;
+  padding-left: 5px;
+}
+
+.nav-links li{
+  padding-top: 5px;
+}
+
+.nav-links li.active{
+  background-color: #77a3da;
+  color: #37bb25;
+}
+
+.nav-links li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.content{
+  margin-left: 175px;
+  padding-left: 5px;
+}
+
 .image-padding {
   padding-left: 30%;
   padding-top: 10%;
