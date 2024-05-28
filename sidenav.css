@@ -1,0 +1,43 @@
+.nav-header {
+    font-size: large;
+    position: relative;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.side-nav {
+    width: 175px;
+    height: 100%;
+    background: #f0a2ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: comic sans ms;
+    font-size: medium;
+}
+
+.nav-links {
+    list-style: none;
+    position: relative;
+    padding-left: 5px;
+}
+
+.nav-links li {
+    padding-top: 5px;
+}
+
+.nav-links li.active {
+    background-color: #fa73fa;
+    color: #37bb25;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 175px;
+    padding-left: 5px;
+}
+
